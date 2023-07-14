@@ -1,0 +1,142 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+* {
+    font-family: Pretendard;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #000000;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: "Cormorant Garamond", serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+hr {
+    width: 80%;
+    margin-left: 10%;
+}
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+}
+button {
+    margin: 20px;
+    outline: none;
+    
+}
+
+.topbox{
+    display: flex;
+    justify-content: space-between;
+}
+.topbox1-1{
+    display: flex;
+    width: 60px;
+    height: 40px;
+    padding: 10px 25px;
+}
+.custom-btn {
+    width: 60px;
+    height: 40px;
+    padding: 10px 25px;
+    border: 2px solid #000000;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background: #e3e9e7;
+    font-size: 1.1rem;
+}
+
+
+
+.btn-5 {
+    background: #ffffff;
+    color: #000000;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+}
+.btn-5:hover {
+    background: transparent;
+    color: #ffffff;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;
+}
+.btn-5:before,
+.btn-5:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #ffffff;
+    transition:400ms ease all;
+}
+.btn-5:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+.btn-5:hover:before,
+.btn-5:hover:after{
+    width:100%;
+    transition:800ms ease all;
+}
+
+.mainbox{
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+
+img{
+    width: 390px;
+    height: 290px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.box1-5{
+    background-size: contain;
+}
+.box2{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 50%;
+    font-size: 20px;
+}
+
+.slide-image {
+    width: 1600px;
+    height: 300px;
+    margin: 5px;
+    background-size: contain;
+}
